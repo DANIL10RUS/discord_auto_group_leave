@@ -11,15 +11,6 @@ import iniconfig
 # Любые вопросы не стесняйтесь сообщать в мой Discord Otter7070
 #
 
-# Инструкция как узнать токен
-# 1) Заходим на https://discord.com/app
-# 2) Нажимаем F12 и ищем "Консоль, Console"
-# 3) Вводим команду :
-# ⬇️
-# (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
-# ⬆️
-# 4) Копируем токен без ковычек и вставляем между ковычек в token = ""
-
 # CONFIG START
 dir = os.path.abspath(__file__).replace(os.path.basename(__file__), "")
 cfg = iniconfig.IniConfig(f"{dir}settings.ini")
